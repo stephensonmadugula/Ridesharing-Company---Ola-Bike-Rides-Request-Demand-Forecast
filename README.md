@@ -3,6 +3,7 @@ Data File Link: https://drive.google.com/file/d/17Wkljr22Su5zYd8CDmYcCaE0OjZtRxC
 
 
 Business Problem
+
 Ola Bikes are suffering losses and losing out from their competition due to their
 inability to fulfill the ride requests of many users. To tackle this problem you are
 asked to predict demand for rides in a certain region and a given future time window.
@@ -10,14 +11,18 @@ This would help them allocate drivers more intelligently to meet the ride reques
 from users.
 
 Goal
+
 You have to predict ride requests (demand forecast) for a particular latitude
 and longitude for a requested future time window/duration.
+
 Data Description
+
 Raw Data contains a `number` (unique for every user), ride request DateTime (IST
 time),
 pickup and drop location latitude, and longitude.
 
 Data Fields
+
 1. number: unique id for every user
 2. ts: DateTime of booking ride (IST time)
 3. pick_lat: ride request pickup latitude
@@ -26,6 +31,7 @@ Data Fields
 6. drop_lng: ride request drop longitude
 7. 
 Defining a Good Ride Request
+
 Ola Management knows the task is not easy and very important for their business to
 grow.
 Hence, their business team has provided you some guidelines to follow.
@@ -45,6 +51,7 @@ pickup and drop geodesic distance > 500kms. Karnataka bounding box:
 ['11.5945587', '18.4767308','74.0543908', '78.588083']
 
 Predict Task to test your model
+
 After model development, Ola has requested us to build a prediction pipeline for the
 deployment of the model. To test our prediction pipeline they have provided us clean
 data (
