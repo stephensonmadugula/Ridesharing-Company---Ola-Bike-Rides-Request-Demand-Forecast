@@ -29,7 +29,7 @@ Data Fields
 4. pick_lng: ride request pickup longitude
 5. drop_lat: ride request drop latitude
 6. drop_lng: ride request drop longitude
-7. 
+
 Defining a Good Ride Request
 
 Ola Management knows the task is not easy and very important for their business to
